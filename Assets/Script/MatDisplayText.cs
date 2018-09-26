@@ -5,7 +5,7 @@ using TMPro;
 
 public class MatDisplayText : MonoBehaviour{
 
-    public static string text;
+    public static string text = "Welcome To Food";
 
     void Update ()
     {

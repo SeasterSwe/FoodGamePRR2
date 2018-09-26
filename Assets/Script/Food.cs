@@ -18,4 +18,10 @@ public class Food :  Usable {
     {
         return "U ate a " + displayName + " : Hunger decreased with " + saturation + " : Uses remaining = " + uses;
     }
+
+    //Går att använda om man känner för det.
+    //public override string ToString()
+    //{
+    //    return "Food kind = " + name + " You can eat it " + uses + "Times";
+    //}
 }
